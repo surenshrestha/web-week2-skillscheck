@@ -67,15 +67,20 @@ var middleNums = numbers.slice(1,4);
 
 //////////////////PROBLEM 11////////////////////
 
-// Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
+// Create an object called 'me' that has the following keys: firstName, state, age, and greeter. 
+// The value of the firstName key should be your name as a string. 
+// The value of the property state should be your current state or providence of residence as a string. 
+// The value of age should be your age as a number. greeter should be a method that returns the string 
+// 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
+// //Code Here 
 
-//Code Here 
 var me ={
-	name:"suren",
+	Fristname:"suren",
 	state:"utah",
 	age:30,
 	greeter: function(){
-		return 
+	return 'Hello! My name is "${me.Fristname} "
+	and I live in  (me.state)'
 
 	}
 }
